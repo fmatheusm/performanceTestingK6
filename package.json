@@ -1,0 +1,11 @@
+{
+  "name": "performance-testing-k6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:fmatheusm/performanceTestingK6.git",
+  "author": "Matheus Martins <matheuss_fernandes@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "uuid": "^3.4.0"
+  }
+}
