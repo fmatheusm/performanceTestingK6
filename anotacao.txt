@@ -1,0 +1,17 @@
+Failed to run `config` for mason.nvim
+
+...l/share/nvim/lazy/mason.nvim/lua/mason-registry/init.lua:80: Cannot find package "lua_ls".
+
+# stacktrace:
+  - /mason.nvim/lua/mason-registry/init.lua:80 _in_ **get_package**
+  - /LazyVim/lua/lazyvim/plugins/lsp/init.lua:287 _in_ **callback**
+  - /mason.nvim/lua/mason-core/async/init.lua:87 _in_ **step**
+  - /mason.nvim/lua/mason-core/async/init.lua:96 _in_ **run**
+  - /mason.nvim/lua/mason-registry/init.lua:202 _in_ **refresh**
+  - /LazyVim/lua/lazyvim/plugins/lsp/init.lua:285 _in_ **config**
+  - vim/_editor.lua:341 _in_ **cmd**
+  - /persistence.nvim/lua/persistence/init.lua:88 _in_ **load**
+  - lua:1
+  - vim/_editor.lua:341 _in_ **cmd**
+  - /snacks.nvim/lua/snacks/picker/actions.lua:564 _in_ **fn**
+  - /snacks.nvim/lua/snacks/win.lua:339
